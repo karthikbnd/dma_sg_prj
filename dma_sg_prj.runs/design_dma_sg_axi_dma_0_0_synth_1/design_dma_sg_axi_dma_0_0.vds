@@ -1,0 +1,346 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Oct 19 09:44:48 2017
+# Process ID: 6368
+# Current directory: C:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.runs/design_dma_sg_axi_dma_0_0_synth_1
+# Command line: vivado.exe -log design_dma_sg_axi_dma_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_dma_sg_axi_dma_0_0.tcl
+# Log file: C:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.runs/design_dma_sg_axi_dma_0_0_synth_1/design_dma_sg_axi_dma_0_0.vds
+# Journal file: C:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.runs/design_dma_sg_axi_dma_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_dma_sg_axi_dma_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 351.977 ; gain = 142.043
+INFO: [Synth 8-638] synthesizing module 'design_dma_sg_axi_dma_0_0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ip/design_dma_sg_axi_dma_0_0/synth/design_dma_sg_axi_dma_0_0.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'axi_dma' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:21830]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_rst_module' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:1595]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (1#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_reset' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:603]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_reset' (2#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:603]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_rst_module' (3#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:1595]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_reg_module' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:8254]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_lite_if' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:2066]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_lite_if' (4#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:2066]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_register' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:3604]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_register' (5#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:3604]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_register_s2mm' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:4837]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_register_s2mm' (6#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:4837]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_reg_module' (7#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:8254]
+INFO: [Synth 8-638] synthesizing module 'axi_sg' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:28736]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_ftch_mngr' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:20303]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_ftch_sm' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:18543]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_ftch_sm' (8#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:18543]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_ftch_pntr' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:19527]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_ftch_pntr' (9#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:19527]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_ftch_cmdsts_if' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:19938]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_ftch_cmdsts_if' (10#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:19938]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_ftch_mngr' (11#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:20303]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_ftch_q_mngr' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:22897]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_ftch_queue' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:21321]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_ftch_queue' (12#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:21321]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_ftch_q_mngr' (13#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:22897]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_updt_mngr' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:25077]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_updt_sm' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:24165]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_updt_sm' (14#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:24165]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_updt_cmdsts_if' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:23854]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_updt_cmdsts_if' (15#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:23854]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_updt_mngr' (16#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:25077]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_updt_q_mngr' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:27298]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_updt_queue' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:25428]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_updt_queue' (17#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:25428]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_updt_q_mngr' (18#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:27298]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_intrpt' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:27902]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_intrpt' (19#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:27902]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_datamover' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:17737]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_mm2s_basic_wrap' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:15576]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_reset' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:303]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_reset' (20#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:303]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_cmd_status' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:2683]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_fifo' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:1883]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_fifo' (21#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:1883]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_fifo__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:1883]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_fifo__parameterized0' (21#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:1883]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_fifo__parameterized1' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:1883]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_fifo__parameterized1' (21#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:1883]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_cmd_status' (22#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:2683]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_rd_status_cntl' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:7089]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_rd_status_cntl' (23#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:7089]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_scc' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:7562]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_scc' (24#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:7562]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_addr_cntl' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:4548]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_addr_cntl' (25#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:4548]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_rddata_cntl' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:5476]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_rddata_cntl' (26#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:5476]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_mm2s_basic_wrap' (27#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:15576]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_s2mm_basic_wrap' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:16506]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_wr_status_cntl' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:13563]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_fifo__parameterized2' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:1883]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (28#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (29#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (30#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (31#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_fifo__parameterized2' (31#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:1883]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_fifo__parameterized3' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:1883]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (31#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (31#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (31#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_fifo__parameterized3' (31#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:1883]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_wr_status_cntl' (32#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:13563]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_scc_wr' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:9822]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_scc_wr' (33#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:9822]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_addr_cntl__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:4548]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_addr_cntl__parameterized0' (33#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:4548]
+INFO: [Synth 8-638] synthesizing module 'axi_sg_wrdata_cntl' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:11526]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_wrdata_cntl' (34#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:11526]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_s2mm_basic_wrap' (35#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:16506]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg_datamover' (36#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:17737]
+INFO: [Synth 8-256] done synthesizing module 'axi_sg' (37#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/11c7/hdl/axi_sg_v4_1_rfs.vhd:28736]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_mngr' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:14884]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_sm' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:13076]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_sm' (38#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:13076]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_sg_if' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:12158]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized1' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized1' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized0' (38#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized1' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (38#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (38#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (38#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_sg_if' (39#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:12158]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_cmdsts_if' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:13668]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_cmdsts_if' (40#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:13668]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_sts_mngr' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:13983]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_sts_mngr' (41#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:13983]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_mngr' (42#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:14884]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_sofeof_gen' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:11155]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_sofeof_gen' (43#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:11155]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_mngr' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:20222]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_sm' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:17440]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_sm' (44#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:17440]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_sg_if' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:15839]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_sg_if' (45#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:15839]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_cmdsts_if' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:18487]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_cmdsts_if' (46#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:18487]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_s2mm_sts_mngr' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:18917]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_sts_mngr' (47#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:18917]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_s2mm_mngr' (48#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:20222]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:48516]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_full_wrap' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:46666]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_reset' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (49#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (50#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (50#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (51#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_status_cntl' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:13741]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_status_cntl' (52#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:13741]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_pcc' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:7411]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (53#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized0' (53#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_pcc' (54#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:7411]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized1' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized2' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized2' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized2' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized2' (54#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized2' (54#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized2' (54#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (54#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (55#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rddata_cntl' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:12180]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rdmux' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:10676]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rdmux' (56#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:10676]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized2' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized3' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized3' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized3' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized3' (56#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized3' (56#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized3' (56#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (56#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rddata_cntl' (57#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:12180]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_sf' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:20200]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized3' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized4' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized4' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized4' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized4' (57#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized4' (57#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized4' (57#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized3' (57#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/5ab6/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (86#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/5ab6/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (87#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_sf' (88#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:20200]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:19492]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf' (89#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:19492]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_full_wrap' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:46666]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_full_wrap' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:43113]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized4' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized4' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status__parameterized0' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_status_cntl' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:17697]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized5' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized5' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized5' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized1' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized1' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized5' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized5' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized5' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized5' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized5' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized6' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized6' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized6' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized2' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized2' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized6' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized6' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized6' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized6' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized6' (90#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_status_cntl' (91#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:17697]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_ibttcc' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:25723]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ibttcc' (92#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:25723]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_realign' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:40129]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized7' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized7' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized7' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized7' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized7' (92#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized7' (92#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized7' (92#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized7' (92#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_scatter' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:38236]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mssai_skid_buf' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:37286]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_ms_strb_set' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:35726]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ms_strb_set' (93#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:35726]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mssai_skid_buf' (94#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:37286]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_slice' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:37975]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_slice' (95#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:37975]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized8' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized8' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized8' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized3' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized3' (95#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized8' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized8' (95#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized8' (95#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized8' (95#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized8' (95#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_scatter' (96#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:38236]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_realign' (97#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:40129]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_indet_btt' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:28422]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set_nodre' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:24201]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set_nodre' (98#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:24201]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/5ab6/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized0' (99#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/5ab6/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized0' (99#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized1' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized1' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/5ab6/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized1' (99#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/5ab6/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized1' (99#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:19492]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf__parameterized0' (99#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:19492]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_indet_btt' (100#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:28422]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl__parameterized0' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized9' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized9' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized9' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized9' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized9' (100#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized9' (100#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized9' (100#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized9' (100#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl__parameterized0' (100#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wrdata_cntl' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:15669]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized10' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized10' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized10' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized10' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized10' (100#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized10' (100#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized10' (100#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized10' (100#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wrdata_cntl' (101#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:15669]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid2mm_buf' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:18990]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_demux' [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:14112]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_demux' (102#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:14112]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid2mm_buf' (103#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:18990]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_full_wrap' (104#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:43113]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (105#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:48516]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma' (106#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:21830]
+INFO: [Synth 8-256] done synthesizing module 'design_dma_sg_axi_dma_0_0' (107#1) [c:/Users/kab/Desktop/workspace/dma_sg_prj/dma_sg_prj.srcs/sources_1/bd/design_dma_sg/ip/design_dma_sg_axi_dma_0_0/synth/design_dma_sg_axi_dma_0_0.vhd:158]
+Finished RTL Elaboration : Time (s): cpu = 00:03:42 ; elapsed = 00:03:47 . Memory (MB): peak = 651.254 ; gain = 441.320
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:43 ; elapsed = 00:03:48 . Memory (MB): peak = 651.254 ; gain = 441.320
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.139 . Memory (MB): peak = 795.855 ; gain = 0.379
+Finished Constraint Validation : Time (s): cpu = 00:03:54 ; elapsed = 00:03:59 . Memory (MB): peak = 795.855 ; gain = 585.922
+Finished Loading Part and Timing Information : Time (s): cpu = 00:03:54 ; elapsed = 00:03:59 . Memory (MB): peak = 795.855 ; gain = 585.922
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:03:54 ; elapsed = 00:03:59 . Memory (MB): peak = 795.855 ; gain = 585.922
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:59 ; elapsed = 00:04:05 . Memory (MB): peak = 795.855 ; gain = 585.922
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:04:09 ; elapsed = 00:04:15 . Memory (MB): peak = 795.855 ; gain = 585.922
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|Module Name   | RTL Object                                                                                                                                                                                                                      | Inference      | Size (Depth x Width) | Primitives   | 
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|axi_datamover | GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 8 x 9                | RAM32M x 2   | 
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:04:18 ; elapsed = 00:04:24 . Memory (MB): peak = 795.855 ; gain = 585.922
+Finished Timing Optimization : Time (s): cpu = 00:04:21 ; elapsed = 00:04:27 . Memory (MB): peak = 809.105 ; gain = 599.172
+Finished Technology Mapping : Time (s): cpu = 00:04:23 ; elapsed = 00:04:29 . Memory (MB): peak = 830.082 ; gain = 620.148
+Finished IO Insertion : Time (s): cpu = 00:04:24 ; elapsed = 00:04:30 . Memory (MB): peak = 830.082 ; gain = 620.148
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:24 ; elapsed = 00:04:30 . Memory (MB): peak = 830.082 ; gain = 620.148
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:24 ; elapsed = 00:04:30 . Memory (MB): peak = 830.082 ; gain = 620.148
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:24 ; elapsed = 00:04:30 . Memory (MB): peak = 830.082 ; gain = 620.148
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:25 ; elapsed = 00:04:30 . Memory (MB): peak = 830.082 ; gain = 620.148
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:25 ; elapsed = 00:04:31 . Memory (MB): peak = 830.082 ; gain = 620.148
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    49|
+|2     |LUT1     |   104|
+|3     |LUT2     |   255|
+|4     |LUT3     |   537|
+|5     |LUT4     |   347|
+|6     |LUT5     |   304|
+|7     |LUT6     |   522|
+|8     |MUXF7    |     1|
+|9     |RAM32M   |     2|
+|10    |RAMB36E1 |     2|
+|11    |SRL16E   |   178|
+|12    |FDR      |     8|
+|13    |FDRE     |  2971|
+|14    |FDSE     |   103|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:25 ; elapsed = 00:04:31 . Memory (MB): peak = 830.082 ; gain = 620.148
+synth_design: Time (s): cpu = 00:04:23 ; elapsed = 00:04:27 . Memory (MB): peak = 830.082 ; gain = 563.262

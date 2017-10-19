@@ -1,0 +1,8 @@
+09:56:04 **** Incremental Build of configuration Debug for project dma_sg_mode ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+
+09:56:04 Build Finished (took 151ms)
+
